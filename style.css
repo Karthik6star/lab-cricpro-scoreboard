@@ -1,5 +1,56 @@
 /* Type your code here */
+.mlogo{
+	display: grid;
+	justify-content: center;
+}
+.Heading{
+	font-size: xx-large;
+	color: solid black;
+	font-weight: bolder;
+}
+.s-heading{
+	font-size:medium;
+	color: white;
 
+}
+.mcontainer{
+	background-image:url("./assets/background-image1.png");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.s-container{
+	width: 900px;
+	border: 2px;
+	height: 500px;
+}
+.top{
+	background-color:darkorange;
+	border: 3px solid orange;
+	color:white;
+	width :100%;
+}
+#align-left{
+	float: left;
+}
+#align-right{
+	float: right;
+	
+}
+#contents{
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	height: 400px;
+	break-after: row;
+}
+#contents th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
